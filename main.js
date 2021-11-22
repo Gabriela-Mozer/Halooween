@@ -16,7 +16,7 @@ function linkAction() {
 }
 navLink.forEach((n) => n.addEventListener("click", linkAction));
 
-const swiper = new swiper('.home-swiper', {
+const swiper = new Swiper('.home-swiper', {
     // Optional parameters
     // direction: 'vertical',
     loop: true,
@@ -41,8 +41,5 @@ const swiper = new swiper('.home-swiper', {
     // },
   });
 
-const swiper = document.querySelector('.home-swiper')
 
-function Swipe(){
-   
-}
+
